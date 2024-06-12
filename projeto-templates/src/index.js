@@ -6,17 +6,20 @@ import Main from './Pages/Main';
 import Sobre from './Pages/Sobre';
 import Contato from './Pages/Contato';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './Components/Footer';
+import './Styles/Modules.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Router>
-   <Navbar/>
+    <Navbar/>
     <Routes>
       <Route path='/' element={<Main/>}></Route>
       <Route path='/contato' element={<Contato/>}></Route>
       <Route path='/sobre' element={<Sobre/>}></Route>
     </Routes>
+    <Footer/>
    </Router>
   </React.StrictMode>
 );
