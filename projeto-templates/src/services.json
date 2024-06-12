@@ -1,0 +1,24 @@
+[
+{
+    "id":"1",
+    "title": "Aluguel de Equipamentos",
+    "content": "Aluguel de esquis e snowboards para diferentes tipos de habilidades e idades"
+},
+{
+    "id":"2",
+    "title": "Aulas de Esqui e Snowboard",
+    "content": "Oferecemos aulas de esqui para iniciantes, desde de aulas em grupo até particulares"
+},
+
+{
+    "id":"3",
+    "title": "Passeios e Excursões Guiadas",
+    "content": "Temos guias de passeios preparados para desbravar as mais belas áreas montanhosas"
+},
+
+{
+    "id":"4",
+    "title": "Hospedagem e Acomodação",
+    "content": "Chalés e Cabines disponíveis no sopé da montanha para melhor acomodar os nossos visitantes"
+}
+]

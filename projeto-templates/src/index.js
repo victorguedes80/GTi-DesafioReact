@@ -17,7 +17,7 @@ root.render(
     <Routes>
       <Route path='/' element={<Main/>}></Route>
       <Route path='/contato' element={<Contato/>}></Route>
-      <Route path='/sobre' element={<Sobre/>}></Route>
+      <Route path='/sobre' element={<Sobre img = "https://cdn.pixabay.com/photo/2023/10/14/09/20/mountains-8314422_1280.png"/>}></Route>
     </Routes>
     <Footer/>
    </Router>
