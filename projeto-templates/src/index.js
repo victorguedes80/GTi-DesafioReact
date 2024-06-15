@@ -16,7 +16,7 @@ root.render(
     <Navbar/>
     <Routes>
       <Route path='/' element={<Main/>}></Route>
-      <Route path='/contato' element={<Contato/>}></Route>
+      <Route path='/contato' element={<Contato img="https://images.unsplash.com/photo-1520333789090-1afc82db536a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>}></Route>
       <Route path='/sobre' element={<Sobre img = "https://cdn.pixabay.com/photo/2023/10/14/09/20/mountains-8314422_1280.png"/>}></Route>
     </Routes>
     <Footer/>

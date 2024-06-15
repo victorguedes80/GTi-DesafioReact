@@ -43,7 +43,7 @@ function Main() {
       <section className="py-5 draggable my-5">
         <h1 className='text-center mb-4'>Nossos Resultados</h1>
         <Container>
-          <Row className='justify-content-center text-center'>
+          <Row className='justify-content-center text-center px-3 my-4'>
 
             <Col md="3">
               <h2 className="text-gradient text-primary">80%</h2>
@@ -74,15 +74,15 @@ function Main() {
             <h1 className='text-center mb-4'>Depoimentos</h1>
           </Row>
 
-          <Row className='my-3'>
+          <Row className='my-3 px-2'>
             {Testimonials && Testimonials.map((c, index) => {
                 return (
                   <Card key={index} style={{width: '20rem', border: 'none'}}>
                         <Container> 
-                        <Image src={c.img} roundedCircle fluid className="card-img-top m-2" style={{width: '10rem', height: '10rem'}}/>
+                        <Image src={c.img} roundedCircle fluid className="card-img-top m-4" style={{width: '10rem', height: '10rem'}}/>
                         </Container>
                         <Card.Body>
-                            <Card.Title>{c.author}</Card.Title>
+                            <Card.Title className='mb-4'>{c.author}</Card.Title>
                             <Card.Text><FaQuoteLeft className='mx-2' />{c.content}<FaQuoteRight className='mx-2' /></Card.Text>
                         </Card.Body>
                   </Card> 

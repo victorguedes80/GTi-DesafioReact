@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Alpes Suíços",
+        "adress": "Suíça" ,
+        "image": "https://cdn.pixabay.com/photo/2024/01/07/10/59/mountains-8492823_1280.jpg" ,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ratione qui hic perferendis dignissimos est tempore."
+    },
+
+    {
+        "name": "Aspen Snowmass",
+        "adress": "Estados Unidos" ,
+        "image": "https://cdn.pixabay.com/photo/2017/11/07/23/23/berchtesgaden-2928711_1280.jpg" ,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ratione qui hic perferendis dignissimos est tempore."
+    },
+
+    {
+        "name": "Sierra Nevada" ,
+        "adress": "Espanha" ,
+        "image": "https://cdn.pixabay.com/photo/2019/12/08/09/34/winter-4680713_1280.jpg"  ,
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ratione qui hic perferendis dignissimos est tempore."
+    }
+]
