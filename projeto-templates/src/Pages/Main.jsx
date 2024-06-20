@@ -1,44 +1,51 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../Styles/Main.Modules.css'
+import '../Styles/Main.css'
 import { Container, Carousel, Card, Col, Image, Row } from 'react-bootstrap'
 import Testimonials from '../testimonials.json'
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import { GrPrevious, GrNext } from "react-icons/gr";
 
 
 function Main() {
   return (
     <main>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1596473536056-91eadf31189e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1515496281361-241a540151a5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1482867996988-29ec3a0f1aac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Fourth slide"
-          />
-        </Carousel.Item>
-      </Carousel>
+      <section className='my-carousel'>
+        <Carousel
+          interval={3000} 
+          prevIcon = {<GrPrevious style={{width: '50px', height:'50px', color: 'black'}}/>} 
+          nextIcon = {<GrNext style={{width: '50px', height:'50px',color: 'black'}}/>}
+        >
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://images.unsplash.com/photo-1596473536056-91eadf31189e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://images.unsplash.com/photo-1515496281361-241a540151a5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://images.unsplash.com/photo-1482867996988-29ec3a0f1aac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+      </section>
 
       <section className="py-5 draggable my-5">
         <h1 className='text-center mb-4'>Nossos Resultados</h1>

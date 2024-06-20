@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Modules.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Button, Container, Card, Col, Form, Row, Tab, Tabs, FormGroup} from 'react-bootstrap'
+import {Button, Container, Card, Col, Form, Row, Tab, Tabs} from 'react-bootstrap'
 import Locations from "../locations.json"
 function Contato (props) {
     return (

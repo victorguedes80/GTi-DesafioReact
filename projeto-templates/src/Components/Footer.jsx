@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; //import para utilização do bootstrap como framework de estilo :)
+import '../Styles/Color.css'
 import React from 'react';
 import { FaFacebook, FaYoutube, FaXTwitter, FaInstagram, FaHeart } from 'react-icons/fa6';
 
 function Footer () {
     return (
         <footer className='footer mb-0'>
-            <section className="bg-dark py-4 py-md-5 py-xl-8 border-top border-dark d-flex justify-content-center text-light">
+            <section className="custom-color py-4 py-md-5 py-xl-8 d-flex justify-content-center">
                 <div className='col-12 col-md-4 col-lg-3 col-x1-2'>
                     <div className='widget'>
                         <h4 className='widget-title mb-4'>Entre em Contato</h4>
