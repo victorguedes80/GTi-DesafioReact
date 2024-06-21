@@ -7,7 +7,7 @@ import Sobre from './Pages/Sobre';
 import Contato from './Pages/Contato';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer';
-import './Styles/Modules.css'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

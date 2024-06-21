@@ -1,5 +1,27 @@
 import React from 'react';
 import Services from '../services.json'
+import { FaSkiingNordic, FaHotel } from "react-icons/fa";
+import { GiSnowboard } from "react-icons/gi";
+import { MdTour } from "react-icons/md";
+import '../Styles/Sobre.css'
+import { Button } from 'react-bootstrap';
+
+const renderIcon = (iconName) => {
+    console.log('Icon Name:', iconName);
+    switch (iconName) {
+        case "FaSkiingNordic":
+            return <FaSkiingNordic />;
+        case "FaHotel":
+            return <FaHotel />;
+        case "GiSnowboard":
+            return <GiSnowboard />;
+        case "MdTour":
+            return <MdTour />;
+        default:
+            return null;
+    }
+};
+  
 function Sobre (props) {
     return (
         <>
@@ -20,15 +42,22 @@ function Sobre (props) {
             </div>
             </header>
 
-            <body className='h-100'>
-                <section className='d-flex justify-content-center'>
+            <main className='h-100'>
+                <h1 className='text-center text-secondary' style={{margin:'3rem'}}>Serviços</h1>
+                <section className='d-flex justify-content-around' style={{marginBottom: '3rem'}}>
                     {
                         Services && Services.map(service => {
+                    
                             return (
-                                <div className='card rounded m-3' style={{width: '25rem', height: '10rem'}} key = {service.id}>
+                                <div id='cardSobre' className='card rounded' style={{width: '30rem', height: '15rem', margin: '5rem', paddingTop: '1rem', border:'none'}} key = {service.id}>
                                     <div className='card-body'>
-                                        <h5 className='card-title'>{service.title}</h5>
+                                        <h5 className='card-title text-secondary'>
+                                            {renderIcon(service.icon)}
+                                            <p></p>
+                                            {service.title}
+                                        </h5>
                                         <p className='card-text'>{service.content}</p>
+                                        <Button className='mb-2' variant='outline-secondary'>Saber Mais</Button>
                                     </div>
                                 </div>
 
@@ -38,7 +67,7 @@ function Sobre (props) {
                     
                 </section>
                 
-            </body>
+            </main>
         </>
     )
 }

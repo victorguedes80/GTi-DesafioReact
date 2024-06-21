@@ -5,7 +5,7 @@ import { FaFacebook, FaYoutube, FaXTwitter, FaInstagram, FaHeart } from 'react-i
 
 function Footer () {
     return (
-        <footer className='footer mb-0'>
+        <footer className='footer m-0'>
             <section className="custom-color py-4 py-md-5 py-xl-8 d-flex justify-content-center">
                 <div className='col-12 col-md-4 col-lg-3 col-x1-2'>
                     <div className='widget'>
