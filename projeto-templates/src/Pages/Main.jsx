@@ -12,6 +12,7 @@ import Testimonials from '../testimonials.json' //json com os depoimentos
 
 //título e texto do carrossel:
 const captionTitle = "Esquiar é nossa especialidade"
+
 const captionText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aut vero quos sunt voluptas dolor veritatis sapiente sed modi odio, rem deleniti culpa ipsum autem magnam quo. Possimus, sapiente alias!"
 
 function Main() {
