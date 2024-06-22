@@ -1,1 +1,8 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+}
 
+nav {
+    font-family: 'Roboto', sans-serif;
+}

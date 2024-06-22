@@ -20,7 +20,7 @@ function Main() {
         >
           <Carousel.Item>
             <Carousel.Caption className='mask' 
-              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 20%)', padding: '10px', borderRadius:'5px'}}
+              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 40%)', padding: '10px', borderRadius:'5px'}}
             >
               <br />
               <h3>{captionTitle}</h3>
@@ -35,7 +35,7 @@ function Main() {
           </Carousel.Item>
           <Carousel.Item>
             <Carousel.Caption className='mask' 
-              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 20%)', padding: '10px', borderRadius:'5px'}}
+              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 40%)', padding: '10px', borderRadius:'5px'}}
             >
               <br />
               <h3>{captionTitle}</h3>
@@ -50,7 +50,7 @@ function Main() {
           </Carousel.Item>
           <Carousel.Item>
             <Carousel.Caption className='mask' 
-              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 20%)', padding: '10px', borderRadius:'5px'}}
+              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 40%)', padding: '10px', borderRadius:'5px'}}
             >
               <br />
               <h3>{captionTitle}</h3>
@@ -65,7 +65,7 @@ function Main() {
           </Carousel.Item>
           <Carousel.Item>
             <Carousel.Caption className='mask' 
-              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 20%)', padding: '10px', borderRadius:'5px'}}
+              style={{height:'200px',backgroundColor: 'rgba(0, 0, 0, 0.7)', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, 40%)', padding: '10px', borderRadius:'5px'}}
             >
               <br />
               <h3>{captionTitle}</h3>

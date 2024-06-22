@@ -13,8 +13,11 @@ function Contato (props) {
             className="p-5 text-center bg-image d-flex flex-column justify-content-between align-items-center"
             style={{backgroundImage: `url(${props.img})`, width: '100%', height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}
             >
-                <h1 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)'}}>Reserve Estadia Conosco</h1>
-                <h2 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)'}}>Estamos Esperando seu contato <FaPhone /></h2>
+                <div>
+                <h1 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', marginBottom:'3rem', padding:'0.2rem 2rem',  borderRadius:'5px'}}>Reserve Conosco</h1>
+                <Button className='mask' variant='dark' size='lg' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)'}}>Contatos</Button>
+                </div>
+                <h2 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding:'0.2rem 2rem', borderRadius:'5px',  marginBottom:'1rem'}}>Estamos Esperando seu contato <FaPhone /></h2>
             </div>
             </header>
             <main>
