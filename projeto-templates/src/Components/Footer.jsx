@@ -20,10 +20,10 @@ function Footer () {
                     <div className='widget'>
                         <h4 className='widget-title mb-4'>Serviços</h4>
                         <ul className='list-unstyled'>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-0'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-0'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,10 +32,10 @@ function Footer () {
                     <div className='widget'>
                         <h4 className='widget-title mb-4'>Links</h4>
                         <ul className='list-unstyled'>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-2'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
-                            <li className='footer-link mb-0'><a className='text-decoration-none' href="" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-2'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
+                            <li className='footer-link mb-0'><a className='text-decoration-none' href="#" style={{color: '#000'}}>Lorem impsum</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ function Footer () {
                 </div>
 
                 <div>
-                    <a className='footer-link' href="" style={{color: '#000'}}><FaFacebook className='px-1 fs-2'/></a>
-                    <a className='footer-link' href="" style={{color: '#000'}}><FaYoutube className='px-1 fs-2'/></a>
-                    <a className='footer-link' href="" style={{color: '#000'}}><FaXTwitter className='px-1 fs-2'/></a>
-                    <a className='footer-link' href="" style={{color: '#000'}}><FaInstagram className='px-1 fs-2'/></a>
+                    <a className='footer-link' href="#" style={{color: '#000'}}><FaFacebook className='px-1 fs-2'/></a>
+                    <a className='footer-link' href="#" style={{color: '#000'}}><FaYoutube className='px-1 fs-2'/></a>
+                    <a className='footer-link' href="#" style={{color: '#000'}}><FaXTwitter className='px-1 fs-2'/></a>
+                    <a className='footer-link' href="#" style={{color: '#000'}}><FaInstagram className='px-1 fs-2'/></a>
                 </div>
             </section>
         </footer>

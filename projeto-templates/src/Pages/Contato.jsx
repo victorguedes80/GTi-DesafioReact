@@ -15,7 +15,7 @@ function Contato (props) {
             >
                 <div>
                 <h1 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', marginBottom:'3rem', padding:'0.2rem 2rem',  borderRadius:'5px'}}>Reserve Conosco</h1>
-                <Button className='mask' variant='dark' size='lg' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)'}}>Contatos</Button>
+                <Button className='mask' variant='dark' size='lg' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', fontSize: '1.5rem'}}>Contate-Nos</Button>
                 </div>
                 <h2 className='mask text-light' style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding:'0.2rem 2rem', borderRadius:'5px',  marginBottom:'1rem'}}>Estamos Esperando seu contato <FaPhone /></h2>
             </div>
